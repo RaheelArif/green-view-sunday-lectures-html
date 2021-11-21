@@ -1,3 +1,24 @@
-h2 {
-  color: darkblue;
+body{
+  background-image: url("bg.jfif");
+  background-size: 100% 100%;
+  background-color: darkblue;
+}
+h1{
+  background-color: darkgreen;
+  display: inline;
+}
+.heading2{
+  background-color: darkred;
+}
+p{
+background-color: darkkhaki;
+font-weight: bold;
+}
+h2{
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: 10px;
+  background-color: darkred;
+  opacity: 0.5;
+  word-spacing: 100px;
 }
