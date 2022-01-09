@@ -1,60 +1,12 @@
-body {
-  padding: 0px;
-  margin: 0px;
+.aaa .btn-primary{
+  background-color: black ;
 }
-.header {
-  height: 100px;
-  width: 100%;
-  background-color: rgb(4, 4, 163);
-  display: flex;
-  justify-content: space-around;
-}
-.logo-text {
-  font-size: 40px;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  display: flex;
-  align-items: center;
-
-  height: 100%;
-}
-.fomr {
-  display: flex;
-}
-.email-div p {
-  color: white;
-}
-.email-div a {
-  color: rgb(153, 153, 153);
-  text-decoration: none;
-  margin-top: 5px;
-  font-size: 13px;
-  font-family: sans-serif;
-}
-.email-div input {
-  margin-right: 10px;
-}
-.email-div {
-  display: flex;
-  flex-direction: column;
-}
-.login-btn {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  /* background-color: rgb(219, 55, 55); */
-}
-.login-btn button {
-  margin-top: 20px;
-  background-color: rgb(15, 15, 190);
-  color: white;
-  font-family: sans-serif;
-  font-size: 12px;
-  padding: 3px 7px;
-  border: 1px solid black;
-}
-.content {
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(228, 228, 228));
-  height: 500px;
-  width: 100%;
+.my-loader{
+  position: fixed;
+background-color: black;
+z-index: 1 !important;
+right: 0;
+top: 10px;
+width: 80px;
+height: 80px;
 }
