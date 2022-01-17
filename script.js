@@ -1,4 +1,9 @@
-var myName = prompt("what is your name", "ALi");
-var myClass = prompt("what is your class", "21");
+var abc = 3;
+var name = "ali2";
+var className = 12;
 
-alert(myName + " " + myClass);
+if ((abc > 4 && name === "ali") || className === 12) {
+  alert("this is true");
+} else {
+  alert("this is false");
+}
